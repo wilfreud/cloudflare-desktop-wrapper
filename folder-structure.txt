@@ -1,0 +1,24 @@
+src/
+├── assets/                # Static files (images, fonts, global CSS)
+├── components/
+│   ├── common/            # Reusable UI components (Button, Input, Modal)
+│   ├── layout/            # Layout components (Header, Footer, Sidebar)
+│   └── features/          # Feature-specific components
+├── hooks/                 # Custom React hooks
+├── context/               # React context providers
+├── services/              # API calls, external service integrations
+├── utils/                 # Utility/helper functions
+├── constants/             # App-wide constants, enums
+├── types/                 # TypeScript type definitions
+├── pages/                 # Page components (for Next.js) or top-level routes
+├── features/              # Feature-based modules (alternative to pages/)
+│   ├── featureA/
+│   │   ├── components/    # Feature-specific components
+│   │   ├── hooks/         # Feature-specific hooks
+│   │   ├── api.ts         # Feature-specific API calls
+│   │   ├── types.ts       # Feature-specific types
+│   │   └── index.ts       # Public API for the feature
+├── store/                 # State management (Redux, Zustand, etc.)
+├── config/                # App configuration
+├── routes/                # Route definitions (if not using Next.js)
+└── tests/                 # Test utilities and setup files
