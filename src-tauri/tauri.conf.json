@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "cloudflare-desktop-wrapper",
+        "title": "Cloudflare Desktop - OSS",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "maximized": true,
+        "transparent": true
       }
     ],
     "security": {
