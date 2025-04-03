@@ -9,6 +9,5 @@ A small desktop application built using the Tauri framework, leveraging cloudfla
 ### Tech stack
 
 - [ ] Shadcn/ui for the UI components
-- [ ] Tanstack router (for experimentation & learning)
+- [x] Tanstack router (for experimentation & learning)
 - [x] Tauri (for experimentation and learning a bit of Rust)
-- [ ]
